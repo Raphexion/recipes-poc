@@ -1,13 +1,10 @@
 SUMMARY = "PWM release"
 LICENSE = "CLOSED"
 
-REBAR3_RELEASE_NAME = "0.1.0"
-
+REBAR3_PROFILE = "default"
+REBAR3_RELEASE_NAME = "pwm-0.1.0"
 
 inherit rebar3
-
-DEPENDS = "erlang erlang-tools"
-
 
 SRC_URI = "git://git@github.com/Raphexion/pwm.git;protocol=ssh;branch=master"
 SRCREV = "${AUTOREV}"
